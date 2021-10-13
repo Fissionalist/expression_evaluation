@@ -211,4 +211,5 @@ int main(){
     }
     printf("%.2f\n", cal_result.top());
     cal_result.pop();
+    return 0;
 }
