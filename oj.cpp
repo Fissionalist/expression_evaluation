@@ -5,7 +5,6 @@
 #include <string>
 using namespace std;
 
-
 bool isOperator(char c){
     if(c == '+' || c == '-' || c == '*' ||
        c == '/' || c == '^' || c == '%')
@@ -181,7 +180,7 @@ int main(){
         str = "";
         op_stack.pop();
     }
-    //得到后缀表达式postfix
+    //get postfix
 
     double a, b;
     while(!postfix.empty()){
